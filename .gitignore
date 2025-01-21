@@ -1,0 +1,57 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.py[cod]
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# FastAPI specific
+*.db
+*.sqlite3
+*.sqlite
+
+# pytest cache
+.cache/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# log files
+*.log
+
+# local environment variables
+.env
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# mypy
+.mypy_cache/
+
+# Coverage directory used by coverage.py
+.coverage
+.coverage.*
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# pyenv
+.python-version
